@@ -18,3 +18,8 @@ $ apt-key list | grep "expired"
 ```
 $ sudo apt-key adv --keyserver keys.gnupg.net --recv-keys <KEY>
 ```
+* Update
+After renewing the expired key, `apt update` can be run again an you can install any available upgrades
+```
+$ sudo apt-get update && apt-get upgrade
+```
