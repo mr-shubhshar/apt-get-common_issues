@@ -25,21 +25,21 @@ $ sudo apt-get update && apt-get upgrade
 ```
 
 ### issues with $PATH env variable
-Installing some programs might require you to add the directory to your system's `$PATH` variable.
+Installing some programs might require you to add the directory to your system's `$PATH` variable.  
 You can change $PATH using `export` command.
 Example: 
 ```
 $ export PATH=newPATH 
 ```
-However, this will completely replace `$PATH` with `newPATH`.
-Items can be added (+=) to an already populated `$PATH` variable using a `:` (colon-separated paths).
+However, this will completely replace `$PATH` with `newPATH`.  
+Items can be added (+=) to an already populated `$PATH` variable using a `:` (colon-separated paths).  
 Example:
 ```
 $ export PATH=$PATH:newPATH
 ```
 One of the consequences of having an inaccurate `$PATH` variable is that the shell will not be able to find and execute programs without a full path.
 
-Also, setting paths in `$PATH` on terminal is temporary. It needs to be set everytime you start a shell. In order to eliminate this, the usual way would be to edit the `.bashrc` file. This gets invoked everytime a new shell session is started, hence `newPath` will be available in `$PATH` everytime a terminal is opened.
+Also, setting paths in `$PATH` on terminal is temporary. It needs to be set everytime you start a shell. In order to eliminate this, the usual way would be to edit the `.bashrc` file. This gets invoked everytime a new shell session is started, hence `newPath` will be available in `$PATH` everytime a terminal is opened.  
 Example:
 * Open .bashrc in gedit (sudo, if not su)
 ```
