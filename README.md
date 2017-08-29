@@ -42,7 +42,7 @@ Example:
 ```
 $ export PATH=newPATH:$PATH
 ```
-Doing this, the terminal will first search for the program at newPATH first.
+Doing this, the terminal will first search for the program at `newPATH` first.
 
 One of the consequences of having an inaccurate `$PATH` variable is that the shell will not be able to find and execute programs without a full path.
 
