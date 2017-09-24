@@ -97,7 +97,7 @@ If you end up at the terminal upon the boot-up of your system, follow the below 
 > When filesystem errors prevent a reboot, you are instructed to run fsck on the affected filesystem. If there are lots of errors, you may be stuck typing y for hours. [-a] instructs fsck to default all answers to YES.
 
 **OUTPUT:**
-> fsck 1.40.2 (24-Sep-2017)
+>fsck 1.40.2 (24-Sep-2017)
 e2fsck 1.40.2 (24-Sep-2017)
 /dev/sda7 was not cleanly unmounted, check forced.
 Pass 1: Checking inodes, blocks, and sizes
@@ -108,10 +108,10 @@ Pass 5: Checking group summary information
 Free blocks count wrong for group #241 (32254, counted=32253).
 Fix? yes
 
-> Free blocks count wrong for group #362 (32254, counted=32248).
+>Free blocks count wrong for group #362 (32254, counted=32248).
 Fix? yes
 
-> Free blocks count wrong for group #368 (32254, counted=27774).
+>Free blocks count wrong for group #368 (32254, counted=27774).
 Fix? yes
 ..........
 /dev/sda2: ***** FILE SYSTEM WAS MODIFIED *****
