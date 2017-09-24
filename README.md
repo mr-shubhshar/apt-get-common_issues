@@ -1,4 +1,5 @@
-## apt-get-common_issues
+# *NIX-common_issues
+## apt update [DEBIAN/UBUNTU]
 Following are some common errors that may arise while running `$ apt update`.
 
 It is very easy to upgrade and manage software and packages with systems based on Debian or Ubuntu using `$ apt update` or `$ apt-get update`. But sometimes it can be rather painful.
@@ -24,7 +25,7 @@ After renewing the expired key, `apt update` can be run again an you can install
 $ sudo apt-get update && apt-get upgrade
 ```
 
-### issues with $PATH env variable
+## issues with $PATH env variable
 Installing some programs might require you to add the directory to your system's `$PATH` variable.  
 You can change $PATH using `export` command.
 Example: 
@@ -57,3 +58,10 @@ Add `export PATH=newPATH:$PATH` or `export PATH=$PATH:newPATH` to this file. Sav
 ```
 $ source ~/.bashrc
 ```
+
+## BAD SUPERBLOCK
+### The following steps will guide you through the steps involved in order to get back (curropted) data due to a BAD SUPERBLOCK.
+
+Sometimes, upon re(start/boot), you might encounter an unusual startup that'd take you to a terminal saying: 
+> # /dev/sda2: Input/output error
+> # mount: /dev/sda2: can't read superblock
