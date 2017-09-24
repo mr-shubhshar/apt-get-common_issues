@@ -63,5 +63,5 @@ $ source ~/.bashrc
 ### The following steps will guide you through the steps involved in order to get back (curropted) data due to a BAD SUPERBLOCK.
 
 Sometimes, upon re(start/boot), you might encounter an unusual startup that'd take you to a terminal saying: 
-> # /dev/sda2: Input/output error
-> # mount: /dev/sda2: can't read superblock
+> /dev/sda2: Input/output error
+> mount: /dev/sda2: can't read superblock
