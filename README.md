@@ -74,7 +74,8 @@ If you end up at the terminal upon the boot-up of your system, follow the below 
 # dumpe2fs /dev/sda7 | grep 'superblock'
 ```
 **OUTPUT:** 
-> Primary superblock at 0, Group descriptors at 1-6
+```
+  Primary superblock at 0, Group descriptors at 1-6
   Backup superblock at 32768, Group descriptors at 32769-32774
   Backup superblock at 98304, Group descriptors at 98305-98310
   Backup superblock at 163840, Group descriptors at 163841-163846
@@ -89,7 +90,8 @@ If you end up at the terminal upon the boot-up of your system, follow the below 
   Backup superblock at 11239424, Group descriptors at 11239425-11239430
   Backup superblock at 20480000, Group descriptors at 20480001-20480006
   Backup superblock at 23887872, Group descriptors at 23887873-23887878
- 
+``` 
+
 ### Repair *NIX Filesystem using any alternate superblock (#32768)
 ``` 
 # fsck -b 32768 /dev/sda2 -a
