@@ -60,7 +60,7 @@ $ source ~/.bashrc
 ```
 
 ## BAD SUPERBLOCK
-### The following steps will guide you through the steps involved in order to get back (curropted) data due to a BAD SUPERBLOCK.
+### Following are a series of steps to resolve a BAD SUPERBLOCK.
 
 Sometimes, upon re(start/boot), you might encounter an unusual startup that'd take you to a terminal saying: 
 ` /dev/sda7: Input/output error `
